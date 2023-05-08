@@ -28,19 +28,19 @@ const menuData: Menu[] = [
       {
         id: 41,
         title: "Tax and Bookkeeping ",
-        path: "/Services/Tax",
+        path: "/services/tax",
         newTab: false,
       },
       {
         id: 42,
         title: "Software and Web Development ",
-        path: "/Services/Web",
+        path: "/services/webdev",
         newTab: false,
       },
       {
         id: 43,
         title: "IT and Support",
-        path: "/Services/IT",
+        path: "/services/itsupport",
         newTab: false,
       },
       {
@@ -97,7 +97,7 @@ const menuData: Menu[] = [
   {
     id: 6,
     title: "Contact Us",
-    path: "/Contact/page",
+    path: "/contact",
     newTab: false,
   },
 ];
