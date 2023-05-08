@@ -1,7 +1,7 @@
 import Link from "next/link";
 import ServicesTitle from "../Common/ServicesTitle";
 import ourServicesData from "./ourServicesData";
-import SingleService from "./singleService";
+import SingleService from "./SingleService";
 
 const OurServices = () => {
   return (
