@@ -46,13 +46,13 @@ const menuData: Menu[] = [
       {
         id: 44,
         title: "Developers",
-        path: "/Services/Developers",
+        path: "/services/developers",
         newTab: false,
       },
       {
         id: 45,
         title: "SEO & Digital Media Marketing",
-        path: "/Services/SEO",
+        path: "/services/seo",
         newTab: false,
       },
       {

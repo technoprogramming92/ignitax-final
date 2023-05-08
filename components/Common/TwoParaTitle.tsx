@@ -26,6 +26,7 @@ const TwoParaTitle = ({
           <p className="text-base !leading-relaxed text-body-color md:text-lg">
             {paragraph}
           </p>
+          <br/>
           <p className="text-base !leading-relaxed text-body-color md:text-lg">
             {paragraph2}
           </p>

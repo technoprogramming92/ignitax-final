@@ -30,12 +30,15 @@ const FourParaTitle = ({
           <p className="text-base !leading-relaxed text-body-color md:text-lg">
             {paragraph}
           </p>
+          <br/>
           <p className="text-base !leading-relaxed text-body-color md:text-lg">
             {paragraph2}
           </p>
+          <br/>
           <p className="text-base !leading-relaxed text-body-color md:text-lg">
             {paragraph3}
           </p>
+          <br/>
           <p className="text-base !leading-relaxed text-body-color md:text-lg">
             {paragraph4}
           </p>

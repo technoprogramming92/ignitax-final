@@ -24,7 +24,7 @@ const Tax = () => {
         <Breadcrumb pageName="Bookkeeping And Tax" />
         <section id="about" className="pt-16 md:pt-10 lg:pt-14">
         <div className="container">
-          <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+          <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-15 lg:pb-20">
             <div className="-mx-4 flex flex-wrap items-center">
               <div className="w-full px-4 lg:w-1/2">
                 <TwoParaTitle
@@ -35,7 +35,7 @@ const Tax = () => {
                 />
 
                 <div
-                  className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
+                  className="wow fadeInUp mb-10 max-w-[570px] lg:mb-0"
                   data-wow-delay=".15s"
                 >
                   <div className="mx-[-12px] flex flex-wrap">
@@ -68,7 +68,7 @@ const Tax = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col items-center content-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 mt-10">
+            <div className="flex flex-col items-center content-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 mt-8">
               <Link
                 href="/contact"
                 className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
@@ -79,9 +79,9 @@ const Tax = () => {
           </div>
         </div>
       </section>
-      <section id="about" className="pt-16 md:pt-10 lg:pt-12">
+      <section id="about" className="pt-11 md:pt-10 lg:pt-12">
         <div className="container">
-          <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+          <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-15 lg:pb-20">
             <div className="-mx-4 flex flex-wrap items-center">
               <div className="w-full px-4 lg:w-1/2">
                 <FourParaTitle

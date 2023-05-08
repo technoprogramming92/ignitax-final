@@ -24,7 +24,7 @@ const Webdev = () => {
       <Breadcrumb pageName="Web Development" />
       <section id="about" className="pt-16 md:pt-10 lg:pt-14">
         <div className="container">
-          <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+          <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-15 lg:pb-20">
             <div className="-mx-4 flex flex-wrap items-center">
               <div className="w-full px-4 lg:w-1/2">
                 <ThreeParaTitle
