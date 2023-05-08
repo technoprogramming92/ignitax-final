@@ -1,4 +1,5 @@
 import { Menu } from "@/types/menu";
+import Link from "next/link";
 
 const menuData: Menu[] = [
   {
@@ -10,7 +11,7 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "About",
-    path: "/Services/About",
+    path: "/about",
     newTab: false,
   },
   {
