@@ -58,13 +58,13 @@ const menuData: Menu[] = [
       {
         id: 46,
         title: "Creative Content Writing",
-        path: "/Services/Content",
+        path: "/services/contentwriting",
         newTab: false,
       },
       {
         id: 47,
         title: "Graphics Design",
-        path: "/Services/Graphics",
+        path: "/services/graphicdesign",
         newTab: false,
       },
       {
