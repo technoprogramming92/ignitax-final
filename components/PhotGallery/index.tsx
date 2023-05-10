@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const GraphicsGallery = () => {
+const PhotoGallery = () => {
   return (
     <div>
       <section className="relative z-10 pt-36 pb-16 md:pb-20 lg:pt-[180px] lg:pb-28">
@@ -10,10 +10,10 @@ const GraphicsGallery = () => {
               <div className="mx-auto max-w-[530px] text-center">
                 <div className="mx-auto mb-9 text-center">
                   <div className="block rounded-lg bg-dark shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-                    <Link href="/galleryimages">
+                    <Link href="/photoimages">
                       <img
                         className="rounded-t-lg"
-                        src="/images/pages-images/graphic-gallery.svg"
+                        src="/images/pages-images/photo-gallery.svg"
                         alt=""
                       />
                     </Link>
@@ -409,4 +409,4 @@ const GraphicsGallery = () => {
   );
 };
 
-export default GraphicsGallery;
+export default PhotoGallery;
