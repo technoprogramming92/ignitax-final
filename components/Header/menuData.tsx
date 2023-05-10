@@ -76,7 +76,7 @@ const menuData: Menu[] = [
       {
         id: 49,
         title: "Admin Work & Assistance",
-        path: "/Services/AdminServices",
+        path: "/services/adminwork",
         newTab: false,
       },
 
