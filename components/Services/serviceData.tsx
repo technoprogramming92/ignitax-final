@@ -70,35 +70,35 @@ const serviceData: Service[] = [
     title: "Photography",
     paragraph:
       "We offer top-quality photography services to capture your special moments in exceptional detail, whether it's for products or events.",
-    image: "/images/softandwebfeatures/Tax-bro.svg",
+    image: "/images/all services/photography.svg",
   },
   {
     id: 11,
     title: "Admin & Assistant",
     paragraph:
       "Our virtual assistants excel in managing schedules, emails, bookkeeping, data entry, and more. We prioritize your unique needs with meticulous attention to detail.",
-    image: "/images/softandwebfeatures/Tax-bro.svg",
+    image: "/images/all services/Admin work and assistance.svg",
   },
   {
     id: 12,
     title: "Search Engine Optimization",
     paragraph:
       "Our SEO virtual services at IGNITAX enhance your website's visibility and attractiveness to search engines by optimizing its content and structure.",
-    image: "/images/softandwebfeatures/Tax-bro.svg",
+    image: "/images/all services/SEO.svg",
   },
   {
     id: 13,
     title: "Editing",
     paragraph:
       "Want to turn your raw footage and images into breathtaking works of art? Let our team of editing experts take your visual content to the next level. From color grading to special effects, we'll bring your vision to life and make your photos and videos stand out from the crowd. Contact us today to learn more about our editing services and how we can help you create stunning visual content.",
-    image: "/images/softandwebfeatures/Tax-bro.svg",
+    image: "/images/all services/Edit photo.svg",
   },
   {
     id: 14,
     title: "Mobile Application Development",
     paragraph:
       "We excel at developing customized, trendy, and high-performing mobile apps that are user-friendly, reliable, and seamless.",
-    image: "/images/softandwebfeatures/Tax-bro.svg",
+    image: "/images/all services/Mobile app development.svg",
   },
 ];
 export default serviceData;

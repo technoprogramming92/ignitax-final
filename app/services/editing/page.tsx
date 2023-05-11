@@ -71,7 +71,7 @@ const Editing = () => {
                   data-wow-delay=".2s"
                 >
                   <Image
-                    src="/images/pages-images/tax-book-keeping-2.svg"
+                    src="/images/all services/Edit photo.svg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full lg:mr-0"

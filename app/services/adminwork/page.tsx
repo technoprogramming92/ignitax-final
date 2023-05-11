@@ -54,7 +54,7 @@ const checkIcon = (
                   data-wow-delay=".2s"
                 >
                   <Image
-                    src="/images/pages-images/content-service.png"
+                    src="/images/all services/Admin work and assistance.svg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full lg:mr-0"

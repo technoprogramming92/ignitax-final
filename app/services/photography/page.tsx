@@ -60,7 +60,7 @@ const Photography = () => {
                   data-wow-delay=".2s"
                 >
                   <Image
-                    src="/images/pages-images/Photography.svg"
+                    src="/images/all services/photography.svg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full lg:mr-0"
