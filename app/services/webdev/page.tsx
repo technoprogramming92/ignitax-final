@@ -53,7 +53,7 @@ const Webdev = () => {
                   data-wow-delay=".2s"
                 >
                   <Image
-                    src="/images/pages-images/softandweb.svg"
+                    src="/images/all services/website development.svg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full lg:mr-0"

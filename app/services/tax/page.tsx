@@ -60,7 +60,7 @@ const Tax = () => {
                   data-wow-delay=".2s"
                 >
                   <Image
-                    src="/images/pages-images/tax-book-keeping.svg"
+                    src="/images/all services/Book-Keeping.svg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full lg:mr-0"
@@ -120,7 +120,7 @@ const Tax = () => {
                   data-wow-delay=".2s"
                 >
                   <Image
-                    src="/images/pages-images/tax-book-keeping-2.svg"
+                    src="/images/all services/tax.svg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full lg:mr-0"

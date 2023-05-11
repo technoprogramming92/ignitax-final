@@ -76,7 +76,7 @@ const Graphic = () => {
                   data-wow-delay=".2s"
                 >
                   <Image
-                    src="/images/pages-images/graphics-service.png"
+                    src="/images/all services/Graphic design.svg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full lg:mr-0"

@@ -27,27 +27,17 @@ const HeroData = () => {
             <div className="wow fadeInUp max-w-[500px]" data-wow-delay=".2s">
               <div className="mb-9">
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  We are here to provide dedicated virtual assistant services
-                  over a globe by connecting clients with suitable virtual
-                  Staff.
+                  We are here to provide dedicated Virtual Assistant, Virtual Team, Virtual Staff, and even various Virtual Services over a globe.
                 </p>
               </div>
               <div className="mb-9">
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Are you a small business owner, online entrepreneur, internet
-                  marketer, finance professional, CPA, EA or podcaster or any
-                  other work professional? You may know those days where you
-                  feel like you are juggling too many things at once? No need to
-                  worry! We have got your back.
+                  Are you a small business owner, online entrepreneur, internet marketer, finance professional, CPA, EA, podcaster or any other work professional? You may know those days where you feel like you are juggling too many things at once? No need to worry! We have got your back.
                 </p>
               </div>
               <div className="mb-9">
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Let us be your circus clowns and take some of those balls off
-                  your hands and give you some fresh air to think of how to grow
-                  your business further by providing a virtual professional who
-                  will take over all that extra load that makes you feel
-                  burdened.
+                  Let us be your circus clowns and take some of those balls off your hands and give you some fresh air to think of how to grow your business further by providing a virtual professional who will take over all that extra load that makes you feel burdened.
                 </p>
               </div>
             </div>

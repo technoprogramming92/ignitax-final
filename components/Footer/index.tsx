@@ -29,8 +29,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Virtual solutions for the real world
                 </p>
                 <div className="flex items-center">
                   <Link
@@ -234,7 +233,7 @@ const Footer = () => {
             <p className="text-center text-base text-body-color dark:text-white">
               All rigts reserved by{" "}
               <a href="https://nextjstemplates.com" rel="nofollow noopener">
-                IGNITAX{" "}
+                IgniTax.{" "}
               </a>
             </p>
           </div>

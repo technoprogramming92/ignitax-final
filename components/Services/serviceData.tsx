@@ -7,98 +7,98 @@ const serviceData: Service[] = [
     title: "Bookkeeping",
     paragraph:
       "we offer comprehensive bookkeeping services, delivered virtually by a dedicated person or team of professionals to help you stay organised and in control of your finances.",
-    image: "/images/services-images/Tax-bro.svg",
+    image: "/images/all services/Book-Keeping.svg",
   },
   {
     id: 2,
     title: "Tax Planning & Preparation",
     paragraph:
       "Say goodbye to stress of tax prepration and tax planning with Ignitax! Our reliable tech and virtual staff of superheroes (EA's & CPA's) will make sure you never miss a payment or deadline again.",
-    image: "/images/services-images/Tax-amico.svg",
+    image: "/images/all services/tax home.svg",
   },
   {
     id: 3,
     title: "Software Development",
     paragraph:
       "Our virtual professionals are pros in web development, software development, and automation. From stunning website designs to magical software integrations, we are here to help you.",
-    image: "/images/services-images/Design team-amico.svg",
+    image: "/images/all services/softandweb.svg",
   },
   {
     id: 4,
     title: "Website Development",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/services-images/Website Creator-amico.svg",
+      "We craft custom websites that are tailored to your business, utilizing top-notch technology to deliver a responsive, user-friendly, and search engine optimized experience.",
+    image: "/images/all services/website development.svg",
   },
   {
     id: 5,
     title: "IT & Support",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/services-images/Code typing-amico.svg",
+      "We offer excellent IT and support services for businesses like yours. Whether you need help with a virus, software updates, or expert advice, we've got you covered.",
+    image: "/images/all services/it support.svg",
   },
   {
     id: 6,
     title: "Digital Media Marketing",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/services-images/Marketing consulting-pana.svg",
+      "Struggling to get any response or engagement on social media? Our digital media experts will boost your online presence and connect with your audience through content creation and social media management.",
+    image: "/images/all services/degital media marketing.svg",
   },
   {
     id: 7,
     title: "Content Writing",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/services-images/Creative writing-amico.svg",
+      "Need help crafting content that captures your audience's attention and drives them to action? Our team of expert wordsmiths is here to help! We'll create compelling copy that tells your brand story, informs and entertains your audience, and motivates them to take action.",
+    image: "/images/all services/content writing.svg",
   },
   {
     id: 8,
     title: "Graphic Designing",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/services-images/Designer-pana.svg",
+      "We bring your brand to life with stunning graphics and designs that capture its essence. Our talented team of visual artists can create a logo, brochure, or website design that represents your brand and makes an impact.",
+    image: "/images/all services/Graphic design.svg",
   },
   {
     id: 9,
     title: "programmers",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/services-images/Programmer-bro.svg",
+      "Looking for a dependable development partner? Look no further. Get in touch with us now to discover more about our development services and how we can bring your ideas to life.",
+    image: "/images/all services/programmer and developers.svg",
   },
   {
     id: 10,
     title: "Photography",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/services-images/Studio photographer-amico.svg",
+      "We offer top-quality photography services to capture your special moments in exceptional detail, whether it's for products or events.",
+    image: "/images/softandwebfeatures/Tax-bro.svg",
   },
   {
     id: 11,
-    title: "Editing",
+    title: "Admin & Assistant",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/services-images/Edit photo-bro.svg",
+      "Our virtual assistants excel in managing schedules, emails, bookkeeping, data entry, and more. We prioritize your unique needs with meticulous attention to detail.",
+    image: "/images/softandwebfeatures/Tax-bro.svg",
   },
   {
     id: 12,
-    title: "Admin & Assistant",
+    title: "Search Engine Optimization",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/services-images/Admin-bro.svg",
+      "Our SEO virtual services at IGNITAX enhance your website's visibility and attractiveness to search engines by optimizing its content and structure.",
+    image: "/images/softandwebfeatures/Tax-bro.svg",
   },
   {
     id: 13,
-    title: "Search Engine Optimization",
+    title: "Editing",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/services-images/SEO analytics team-rafiki.svg",
+      "Want to turn your raw footage and images into breathtaking works of art? Let our team of editing experts take your visual content to the next level. From color grading to special effects, we'll bring your vision to life and make your photos and videos stand out from the crowd. Contact us today to learn more about our editing services and how we can help you create stunning visual content.",
+    image: "/images/softandwebfeatures/Tax-bro.svg",
   },
   {
     id: 14,
     title: "Mobile Application Development",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/services-images/App development-bro.svg",
+      "We excel at developing customized, trendy, and high-performing mobile apps that are user-friendly, reliable, and seamless.",
+    image: "/images/softandwebfeatures/Tax-bro.svg",
   },
 ];
 export default serviceData;
