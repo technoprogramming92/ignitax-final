@@ -1,6 +1,8 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import FourParaTitle from "@/components/Common/FourParaTitle";
 import Image from "next/image";
+import OurTeam from "@/components/OurTeam";
+
 
 const About = () => {
   return (
@@ -45,6 +47,10 @@ const About = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      <section id="ourteam" className="pt-12 md:pt-15 lg:pt-19">
+        <OurTeam />
       </section>
     </div>
   );
