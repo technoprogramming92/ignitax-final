@@ -4,7 +4,7 @@ import '../styles/globals.css';
 import { Providers } from './providers';
 import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
-import LoadingBar from "react-top-loading-bar"
+import NextNProgress from 'nextjs-progressbar';
 
 import { useState } from 'react';
 
@@ -20,9 +20,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   
-  const [progress, setProgress] = useState(0)
-
-  
   return (
     <html suppressHydrationWarning lang="en">
       {/*
@@ -33,11 +30,7 @@ export default function RootLayout({
 
       <body className="dark:bg-black">
         <Providers>
-          <LoadingBar 
-            color='#f11946'
-            progress={progress}
-            onLoaderFinished={() => setProgress(0)}
-          />
+          <NextNProgress />
           <Header />
           {children}
           <Footer />
