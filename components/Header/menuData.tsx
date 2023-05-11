@@ -69,19 +69,26 @@ const menuData: Menu[] = [
       },
       {
         id: 48,
-        title: "Photography",
-        path: "/services/photography",
+        title: "Admin Work & Assistance",
+        path: "/services/adminwork",
         newTab: false,
       },
       {
         id: 49,
-        title: "Admin Work & Assistance",
-        path: "/services/adminwork",
+        title: "Photography",
+        path: "/services/photography",
         newTab: false,
       },
 
       {
         id: 410,
+        title: "Editing",
+        path: "/services/editing",
+        newTab: false,
+      },
+
+      {
+        id: 411,
         title: "All Services",
         path: "/services/allservices",
         newTab: false,
