@@ -37,24 +37,6 @@ const whyData: Why[] = [
       content:
         "We believe in open and honest communication with our clients, ensuring you stay in the loop with every project.",
     },
-    {
-      id: 7,
-      content_bold:"Fort Knox Has Nothing on Us",
-      content:
-        "We take data protection seriously and ensure your sensitive information is protected with the same level of security used to safeguard gold bullion.",
-    },
-    {
-      id: 8,
-      content_bold:"",
-      content:
-        "Best fit in your budget",
-    },
-    {
-      id: 9,
-      content_bold:"",
-      content:
-        "xyz",
-    },
   ];
 
   export default whyData;

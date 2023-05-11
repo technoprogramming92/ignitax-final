@@ -1,7 +1,8 @@
 import Hero from "@/components/Hero"
-import NewWhys from "@/components/NewWhys"
+import Whys from "@/components/Whys"
 import OurServices from "@/components/OurServices"
 import Testimonials from "@/components/Testimonials"
+
 
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
     <div>
       <Hero />
       <OurServices />
-      <NewWhys />
+      <Whys />
       <Testimonials />
     </div>
   )
