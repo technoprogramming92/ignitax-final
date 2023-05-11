@@ -1,12 +1,9 @@
 "use client";
 import Header from '@/components/Header';
 import '../styles/globals.css';
-import { Providers } from './providers';
 import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
-import NextNProgress from 'nextjs-progressbar';
-
-import { useState } from 'react';
+import { ThemeProvider } from "next-themes";
 
 
 export const metadata = {
@@ -28,14 +25,13 @@ export default function RootLayout({
       */}
       <head />
 
-      <body className="dark:bg-black">
-        <Providers>
-          <NextNProgress />
+      <body>
+        <ThemeProvider attribute="class" enableSystem={false} defaultTheme="dark">
           <Header />
           {children}
           <Footer />
           <ScrollToTop />
-        </Providers>
+        </ThemeProvider>
       </body>
     </html>
   );
