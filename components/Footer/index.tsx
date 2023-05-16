@@ -75,7 +75,8 @@ const Footer = () => {
                     </svg>
                   </Link>
                   <Link
-                    href="/"
+                    href="https://www.linkedin.com/company/ignitax-virtualserviceandassisstant/"
+                    target="_blank"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
@@ -89,7 +90,8 @@ const Footer = () => {
                     </svg>
                   </Link>
                   <Link
-                    href="/"
+                    href="https://www.instagram.com/ignitax_your_virtual_assistant/"
+                    target="_blank"
                     aria-label="social-link"
                     className="mr-6 text-[#CED3F6] hover:text-primary"
                   >
@@ -231,7 +233,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              All rigts reserved by{" "}
+              All rights reserved by{" "}
               <a href="https://nextjstemplates.com" rel="nofollow noopener">
                 IgniTax.{" "}
               </a>
