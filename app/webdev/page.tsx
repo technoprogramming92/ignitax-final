@@ -3,6 +3,36 @@ import ThreeParaTitle from "@/components/Common/ThreeParaTitle";
 import Image from "next/image";
 import Link from "next/link";
 import Features from "@/components/SoftwareWebFeatures";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'IGNITAX - Software Development & Web Development Service',
+  description: 'Ignitax Offers Custom Software And Web Development Services For Your Own Business Needs. Our Team Specializes In Creating User-friendly And High-performing Software Applications And Websites.',
+  keywords: 'Web Design And Development, Custom Web Development, Responsive Website Design, Website Development Services, Software Development Solutions, Custom Software Development, Software Development Company, Software Development Services, Customized Software Solutions, Software Development Agency, Web Application Development, E-commerce Website Development, Mobile App Development, Ui/ux Design Services, Front-end Development, Back-end Development, Full-stack Development, Agile Software Development, Web Development Consulting, Website Maintenance And Support',
+  authors: [{name: 'Ignitax'}],
+  openGraph: {
+    title: 'IGNITAX - Software Development & Web Development Service',
+    description: 'Ignitax Offers Custom Software And Web Development Services For Your Own Business Needs. Our Team Specializes In Creating User-friendly And High-performing Software Applications And Websites.',
+    url: 'https://www.ignitax.com'
+  },
+
+  twitter:{
+    title: 'IGNITAX - Software Development & Web Development Service',
+    description: 'Ignitax Offers Custom Software And Web Development Services For Your Own Business Needs. Our Team Specializes In Creating User-friendly And High-performing Software Applications And Websites.',
+  },
+
+  robots: 'index, follow',
+  icons: '/favicons/android-chrome-192x192.png',
+  
+  formatDetection: {
+    telephone: false
+  },
+  themeColor: '1F385D',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default'
+  }
+};
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -63,7 +93,7 @@ const Webdev = () => {
             </div>
             <div className="flex flex-col items-center content-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 mt-10">
               <Link
-                href="/Contact/page"
+                href="/contact"
                 className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
               >
                 Book a Call

@@ -11,15 +11,16 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
+              <div className="mb-8 max-w-[360px] lg:mb-10">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="images/logo/logo-2.svg"
+                    src="/images/logo/logo-dark.png"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
+
                   <Image
                     src="/images/logo/ignitax-logo.png"
                     alt="logo"
@@ -110,47 +111,48 @@ const Footer = () => {
             </div>
 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
+              <div className="mb-8 lg:mb-12">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  Services
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/tax"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Blog{" "}
+                      Tax & Bookkeeping{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/webdev"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Pricing{" "}
+                      Software & Web Development{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/itsupport"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      About{" "}
+                      IT & Support{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/AllServices/page"
+                      href="/developers"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Services{" "}
+                      Developers{" "}
                     </Link>
                   </li>
+                  
                 </ul>
               </div>
             </div>
@@ -158,34 +160,34 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                {" "}<br/>
                 </h2>
                 <ul>
-                  <li>
+                <li>
                     <Link
-                      href="/"
+                      href="/seo"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      TOS{" "}
+                      SEO & Digital Media Marketing{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/contentwriting"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Privacy Policy{" "}
+                      Creative Content Writing{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/adminwork"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Refund Policy{" "}
+                      Admin Work & Assistance{" "}
                     </Link>
                   </li>
                 </ul>
@@ -195,34 +197,43 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  <br/>
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/graphicdesign"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Open Support Ticket{" "}
+                      Graphic Design{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/photography"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Terms of Use{" "}
+                      Photography{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/editing"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      About{" "}
+                      Editing{" "}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/allservices"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      {" "}
+                      All Services{" "}
                     </Link>
                   </li>
                 </ul>
@@ -231,13 +242,21 @@ const Footer = () => {
           </div>
         </div>
         <div className="bg-primary/10 py-8">
-          <div className="container">
-            <p className="text-center text-base text-body-color dark:text-white">
-              All rights reserved by{" "}
-              <a href="https://nextjstemplates.com" rel="nofollow noopener">
-                IgniTax.{" "}
-              </a>
-            </p>
+          <div className="container text-center">
+            <Link
+              href="/"
+              rel="nofollow noopener"
+              className="text-center text-base text-body-color dark:text-white"
+            >
+              All Rights reserved. IGNITAX
+              <Image
+              className="inline-block"
+              src="/favicons/favicon-32x32.png"
+              alt="favicon"
+              width={40}
+              height={50}
+              ></Image>
+            </Link>
           </div>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">

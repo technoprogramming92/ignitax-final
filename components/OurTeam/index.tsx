@@ -46,6 +46,7 @@ const OurTeam = () => {
           <div className="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-2">
             <p className="text-lg font-bold">Purvi Trivedi</p>
             <p className="mb-4 text-xs text-gray-800">CEO and Founder</p>
+            
 
             <div className="flex items-center space-x-3">
               <a

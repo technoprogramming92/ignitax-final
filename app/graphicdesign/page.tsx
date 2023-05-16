@@ -4,6 +4,41 @@ import Image from "next/image";
 import Link from "next/link";
 import GraphicsGallery from "@/components/GraphicsGallery";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IGNITAX - Professional Graphic Design Services",
+  description:
+    "At Ignitax, We Provide Exceptional Graphic Design Services To Elevate Your Brand Image. Our Team Of Talented Designers Crafts Breathtaking Visuals Customized To Suit Your Specific Requirements.",
+  keywords:
+    "Graphic design services, Creative logo design, Professional graphic designer, Custom graphic design, Branding and identity design, Illustration services, Print design solutions, Visual communication, Digital graphics, Graphic design portfolio, Virtual staff for graphic designing, virtual graphic designer, Banners design, Billboards design, Brochures design, Envelopes design, Flyers design, Infographics design, Menus design, Newsletters design, Packaging Design, Vector Art design, Business Cards design, Business forums design, Catalogues design, Invitations design, Letterheads design, Logos design online, Posters design, Social Media Posts design",
+  authors: [{ name: "Ignitax" }],
+  openGraph: {
+    title: "IGNITAX - Professional Graphic Design Services",
+    description:
+      "At Ignitax, We Provide Exceptional Graphic Design Services To Elevate Your Brand Image. Our Team Of Talented Designers Crafts Breathtaking Visuals Customized To Suit Your Specific Requirements.",
+    url: "https://www.ignitax.com/services/graphicdesign",
+  },
+
+  twitter: {
+    title: "IGNITAX - Professional Graphic Design Services",
+    description:
+      "At Ignitax, We Provide Exceptional Graphic Design Services To Elevate Your Brand Image. Our Team Of Talented Designers Crafts Breathtaking Visuals Customized To Suit Your Specific Requirements.",
+  },
+
+  robots: "index, follow",
+  icons: "/favicons/android-chrome-192x192.png",
+
+  formatDetection: {
+    telephone: false,
+  },
+  themeColor: "1F385D",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+  },
+};
+
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
     <path d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />

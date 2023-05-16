@@ -3,6 +3,36 @@ import TwoParaTitle from "@/components/Common/TwoParaTitle";
 import DevelopersFeatures from "@/components/DevelopersFeatures";
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'IGNITAX - Skilled Developers for Your Digital Projects',
+  description: 'Hire our team of experienced developers to bring your digital projects to life. From web development to software solutions, we deliver quality results tailored to your business needs.',
+  keywords: 'Skilled developers, Web development services, Custom software development, Full-stack developers, Front-end development, Back-end development, Mobile app development, E-commerce solutions, CMS development, API integration, UI/UX design, Agile development process, Quality assurance and testing, Responsive web development, Scalable software solutions, Innovative technology development, Software engineering services, Code optimization, Database design and development, Cloud-based solutions',
+  authors: [{name: 'Ignitax'}],
+  openGraph: {
+    title: 'IGNITAX - Skilled Developers for Your Digital Projects',
+    description: 'Hire our team of experienced developers to bring your digital projects to life. From web development to software solutions, we deliver quality results tailored to your business needs.',
+    url: 'https://www.ignitax.com'
+  },
+
+  twitter:{
+    title: 'IGNITAX - Skilled Developers for Your Digital Projects',
+    description: 'Hire our team of experienced developers to bring your digital projects to life. From web development to software solutions, we deliver quality results tailored to your business needs.',
+  },
+
+  robots: 'index, follow',
+  icons: '/favicons/android-chrome-192x192.png',
+  
+  formatDetection: {
+    telephone: false
+  },
+  themeColor: '1F385D',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default'
+  }
+};
 
 
 const Developers = () => {

@@ -3,6 +3,36 @@ import FourParaTitle from "@/components/Common/FourParaTitle";
 import ITFeatures from "@/components/ITFeatures";
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'IGNITAX - IT and Support Services | Best Solutions for Your Business',
+  description: 'Ignitax offers comprehensive IT and support services to businesses. Get solutions for your technical needs, including IT consulting, network management, hardware and software support, and more.',
+  keywords: 'IT Consulting Services, Network Management Solutions, Hardware And Software Support, IT Infrastructure Management, Cloud Computing Services, Data Backup And Recovery, Cybersecurity Solutions, System Upgrades And Maintenance, IT Help Desk Support, Technology Planning And Implementation, IT Solutions Provider,Managed It Services, IT Support And Maintenance, IT Troubleshooting, Network Security Services',
+  authors: [{name: 'Ignitax'}],
+  openGraph: {
+    title: 'IGNITAX - IT and Support Services | Best Solutions for Your Business',
+    description: 'Ignitax offers comprehensive IT and support services to businesses. Get solutions for your technical needs, including IT consulting, network management, hardware and software support, and more.',
+    url: 'https://www.ignitax.com'
+  },
+
+  twitter:{
+    title: 'IGNITAX - IT and Support Services | Best Solutions for Your Business',
+    description: 'Ignitax offers comprehensive IT and support services to businesses. Get solutions for your technical needs, including IT consulting, network management, hardware and software support, and more.',
+  },
+
+  robots: 'index, follow',
+  icons: '/favicons/android-chrome-192x192.png',
+  
+  formatDetection: {
+    telephone: false
+  },
+  themeColor: '1F385D',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default'
+  }
+};
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">

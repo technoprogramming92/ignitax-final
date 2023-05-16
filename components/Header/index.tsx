@@ -54,7 +54,7 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/ignitax-logo.png"
+                  src="/images/logo/logo-dark.png"
                   alt="logo"
                   width={140}
                   height={30}
