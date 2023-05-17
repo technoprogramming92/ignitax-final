@@ -6,7 +6,7 @@ const NewWhyUs = () => {
   return (
     <section className="relative z-10 bg-primary/[.03] py-12 md:py-15 lg:py-18">
       <div className="container">
-      <ServicesTitle
+        <ServicesTitle
           title="Why Choose Us"
           paragraph="We're your virtual assistant matchmakers, and we'll find you the perfect match without the awkward first date."
           center
@@ -15,108 +15,119 @@ const NewWhyUs = () => {
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="border border-gray-200 p-6 rounded-lg bg-white shadow-one dark:bg-[#1D2144]">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full mb-4">
-                <Image 
-                src="/favicons/productivity.png"
-                alt="pajama"
-                height={70}
-                width={70}
+                <Image
+                  src="/favicons/productivity.png"
+                  alt="pajama"
+                  height={70}
+                  width={70}
                 />
               </div>
               <h2 className="text-xl text-gray-900 font-bold title-font mb-2">
-              Pajamas & Productivity
+                Pajamas & Productivity
               </h2>
               <p className="leading-relaxed text-base">
-              With our virtual services, you can collaborate with top-notch professionals from anywhere in the world, all while staying cozy in your pajamas.
+                With our virtual services, you can collaborate with top-notch
+                professionals from anywhere in the world, all while staying cozy
+                in your pajamas.
               </p>
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="border border-gray-200 p-6 rounded-lg bg-white shadow-one dark:bg-[#1D2144]">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-              <Image 
-                src="/favicons/guru.png"
-                alt="pajama"
-                height={70}
-                width={70}
+                <Image
+                  src="/favicons/guru.png"
+                  alt="pajama"
+                  height={70}
+                  width={70}
                 />
               </div>
               <h2 className="text-xl text-gray-900 font-bold title-font mb-2">
-              Jack of All Trades, Master of All
+                Jack of All Trades, Master of All
               </h2>
               <p className="leading-relaxed text-base">
-              Our team comprises experts from diverse fields like IT, marketing, design, and content creation. From start to end, we have your back.
+                Our team comprises experts from diverse fields like IT,
+                marketing, design, and content creation. From start to end, we
+                have your back.
               </p>
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="border border-gray-200 p-6 rounded-lg bg-white shadow-one dark:bg-[#1D2144]">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-              <Image 
-                src="/favicons/bank.png"
-                alt="pajama"
-                height={70}
-                width={70}
+                <Image
+                  src="/favicons/bank.png"
+                  alt="pajama"
+                  height={70}
+                  width={70}
                 />
               </div>
               <h2 className="text-xl text-gray-900 font-bold title-font mb-2">
-              More Bang for Your Buck
+                More Bang for Your Buck
               </h2>
               <p className="leading-relaxed text-base">
-              Our virtual services are priced affordably, providing you with top-notch expertise without breaking the bank. So, you can go for the international trip.
+                Our virtual services are priced affordably, providing you with
+                top-notch expertise without breaking the bank. So, you can go
+                for the international trip.
               </p>
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="border border-gray-200 p-6 rounded-lg bg-white shadow-one dark:bg-[#1D2144]">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-              <Image 
-                src="/favicons/number.png"
-                alt="pajama"
-                height={70}
-                width={70}
+                <Image
+                  src="/favicons/number.png"
+                  alt="pajama"
+                  height={70}
+                  width={70}
                 />
               </div>
               <h2 className="text-xl text-gray-900 font-bold title-font mb-2">
-              You're Not Just a Number to Us
+                You're Not Just a Number to Us
               </h2>
               <p className="leading-relaxed text-base">
-              We take the time to understand your unique requirements and objectives, ensuring personalized attention at every stage.
+                We take the time to understand your unique requirements and
+                objectives, ensuring personalized attention at every stage.
               </p>
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="border border-gray-200 p-6 rounded-lg bg-white shadow-one dark:bg-[#1D2144]">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-              <Image 
-                src="/favicons/box.png"
-                alt="pajama"
-                height={70}
-                width={70}
+                <Image
+                  src="/favicons/box.png"
+                  alt="pajama"
+                  height={70}
+                  width={70}
                 />
               </div>
               <h2 className="text-xl text-gray-900 font-bold title-font mb-2">
-              Thinking Outside the Box
+                Thinking Outside the Box
               </h2>
               <p className="leading-relaxed text-base">
-              Because Innovation in our DNA: We constantly explore novel and innovative ways to help our clients achieve success. Expect fresh ideas from us.
+                Because Innovation in our DNA: We constantly explore novel and
+                innovative ways to help our clients achieve success. Expect
+                fresh ideas from us.
               </p>
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="border border-gray-200 p-6 rounded-lg bg-white shadow-one dark:bg-[#1D2144]">
               <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-              <Image 
-                src="/favicons/hidden.png"
-                alt="pajama"
-                height={70}
-                width={70}
+                <Image
+                  src="/favicons/hidden.png"
+                  alt="pajama"
+                  height={70}
+                  width={70}
                 />
               </div>
               <h2 className="text-xl text-gray-900 font-bold title-font mb-2">
-              No Hidden Agendas
+                No Hidden Agendas
               </h2>
               <p className="leading-relaxed text-base">
-              We believe in open and honest communication with our clients, its our assurance that you will stay in the loop with every project.
+                We believe in open and honest communication with our clients,
+                its our assurance that you will stay in the loop with every
+                project.
               </p>
             </div>
           </div>
