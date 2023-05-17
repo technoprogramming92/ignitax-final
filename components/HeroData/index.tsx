@@ -6,7 +6,7 @@ const HeroData = () => {
     <section className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
         <HeroTitle
-          title="Creating an impact by allowing clients and employees more freedom."
+          title="Empowering Clients And Employees Through Freedom And Meaningful Impact."
           paragraph=""
           center
         />
