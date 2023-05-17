@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
-import Whys from "@/components/Whys";
+import NewWhyUs from "@/components/NewWhyUs";
+//import Whys from "@/components/Whys";
 import OurServices from "@/components/OurServices";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
@@ -37,7 +38,7 @@ export default function Home() {
     <div>
       <Hero />
       <OurServices />
-      <Whys />
+      <NewWhyUs />
       <Testimonials />
     </div>
   );

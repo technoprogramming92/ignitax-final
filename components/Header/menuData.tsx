@@ -1,5 +1,5 @@
 import { Menu } from "@/types/menu";
-import Link from "next/link";
+
 
 const menuData: Menu[] = [
   {
@@ -23,6 +23,7 @@ const menuData: Menu[] = [
   {
     id: 4,
     title: "Services",
+    
     newTab: false,
     submenu: [
       {
@@ -94,11 +95,12 @@ const menuData: Menu[] = [
         newTab: false,
       },
     ],
+    
   },
   {
     id: 5,
     title: "FAQs",
-    path: "/FAQs",
+    path: "/faqs",
     newTab: false,
   },
   {
