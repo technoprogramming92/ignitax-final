@@ -110,10 +110,10 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-3/12">
               <div className="mb-8 lg:mb-12">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Services
+                  All Services 
                 </h2>
                 <ul>
                   <li>
@@ -143,27 +143,17 @@ const Footer = () => {
                       IT & Support{" "}
                     </Link>
                   </li>
+                 
                   <li>
                     <Link
-                      href="/developers"
+                      href="/graphicdesign"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Developers{" "}
+                      Graphic Design{" "}
                     </Link>
                   </li>
-                  
-                </ul>
-              </div>
-            </div>
-
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                {" "}<br/>
-                </h2>
-                <ul>
-                <li>
+                  <li>
                     <Link
                       href="/seo"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
@@ -190,43 +180,7 @@ const Footer = () => {
                       Admin Work & Assistance{" "}
                     </Link>
                   </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  <br/>
-                </h2>
-                <ul>
-                  <li>
-                    <Link
-                      href="/graphicdesign"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      Graphic Design{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/photography"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      Photography{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/editing"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      Editing{" "}
-                    </Link>
-                  </li>
+                
                   <li>
                     <Link
                       href="/allservices"
@@ -236,6 +190,78 @@ const Footer = () => {
                       All Services{" "}
                     </Link>
                   </li>
+
+                  
+                  
+                </ul>
+              </div>
+            </div>
+
+           
+
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+              <div className="mb-12 lg:mb-16">
+                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                  Company & Resources
+                  <br/>
+                </h2>
+                <ul>
+                <li>
+                    <Link
+                      href="/about"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      {" "}
+                      About Ignitax {" "}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/faq"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      {" "}
+                      FAQ's{" "}
+                    </Link>
+                  </li>
+                  <li>
+                  <Link
+                      href="/"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      {" "}
+                      BLOGS{" "}
+                    </Link>
+                  </li>
+                  <li>
+                  <Link
+                      href="/"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      {" "}
+                      Privacy Policy{" "}
+                    </Link>
+                  </li>
+                  <li>
+                  <Link
+                      href="/"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      {" "}
+                      Testimonials{" "}
+                    </Link>
+                  </li>
+                  <li>
+                  <Link
+                      href="/contact"
+                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
+                    >
+                      {" "}
+                      Countac Us{" "}
+                    </Link>
+                  </li>
+                  
+
                 </ul>
               </div>
             </div>

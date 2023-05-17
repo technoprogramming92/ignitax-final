@@ -9,8 +9,8 @@ const Whys = () => {
       <section className="relative z-10 bg-primary/[.03] py-12 md:py-15 lg:py-18">
         <div className="container">
           <HeroTitle
-            title="Why Choose Us"
-            paragraph="We're your virtual assistant matchmakers, and we'll find you the perfect match without the awkward first date."
+            title="Frequently Asked Questions"
+            paragraph="Your Burning Questions, Answered Below!"
             center
           />
           <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
