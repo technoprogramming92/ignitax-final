@@ -3,7 +3,7 @@ import { Testimonial } from "@/types/testimonial";
 const TestimonialData : Testimonial[] = [
     {
         id: 1,
-        name: "Ekta Trivedi",
+        name: "Ekta",
         designation: "Founder @ER Creation",
         content:
           "Partnering with Ignitax for our e-commerce needs has been a game-changer for our handcraft business. Their expertise and attention to detail have transformed our online store into a visually stunning and user-friendly platform. We highly recommend Ignitax to any handcraft or small business looking to establish a strong online presence. Thank you, Ignitax, for helping us succeed in the digital world!",
@@ -21,7 +21,7 @@ const TestimonialData : Testimonial[] = [
       },
       {
         id: 3,
-        name: "Ekta Trivedi",
+        name: "Ekta",
         designation: "Founder @ER Creation",
         content:
           "Partnering with Ignitax for our e-commerce needs has been a game-changer for our handcraft business. Their expertise and attention to detail have transformed our online store into a visually stunning and user-friendly platform. We highly recommend Ignitax to any handcraft or small business looking to establish a strong online presence. Thank you, Ignitax, for helping us succeed in the digital world!",
