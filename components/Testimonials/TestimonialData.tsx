@@ -6,28 +6,29 @@ const TestimonialData : Testimonial[] = [
         name: "Ekta Trivedi",
         designation: "Founder @ER Creation",
         content:
-          "Thanks to Ignitax's efforts, our online presence has skyrocketed. They implemented effective SEO strategies, optimized our product listings, and executed targeted advertising campaigns that drove significant traffic to our Instagram page. Our sales and conversion rates have increased exponentially, and we continue to see steady growth month after month.",
+          "Partnering with Ignitax for our e-commerce needs has been a game-changer for our handcraft business. Their expertise and attention to detail have transformed our online store into a visually stunning and user-friendly platform. We highly recommend Ignitax to any handcraft or small business looking to establish a strong online presence. Thank you, Ignitax, for helping us succeed in the digital world!",
         image: "/images/testimonials/ercreation.png",
         star: 5,
       },
       {
         id: 2,
-        name: "Devid Weilium",
-        designation: "Founder @UIdeck",
+        name: "Heli Patel",
+        designation: "Founder @Junior Marvels",
         content:
-          "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-        image: "/images/testimonials/auth-02.png",
+          "Ignitax has played a crucial role in enhancing our online presence. Their expertise in website design and development, coupled with their exceptional content writing skills, has brought tremendous value to our pre-school. Our website now beautifully represents our institution, and the engaging content has captivated our audience. We highly recommend Ignitax for their outstanding services.",
+        image: "/images/testimonials/jr marvels.jpeg",
         star: 5,
       },
       {
         id: 3,
-        name: "Lethium Frenci",
-        designation: "Founder @Lineicons",
+        name: "Ekta Trivedi",
+        designation: "Founder @ER Creation",
         content:
-          "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-        image: "/images/testimonials/auth-03.png",
+          "Partnering with Ignitax for our e-commerce needs has been a game-changer for our handcraft business. Their expertise and attention to detail have transformed our online store into a visually stunning and user-friendly platform. We highly recommend Ignitax to any handcraft or small business looking to establish a strong online presence. Thank you, Ignitax, for helping us succeed in the digital world!",
+        image: "/images/testimonials/ercreation.png",
         star: 5,
       },
+     
 ]
  
 export default TestimonialData;
