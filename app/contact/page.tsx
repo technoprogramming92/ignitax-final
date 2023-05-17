@@ -1,9 +1,12 @@
+"use client";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import NewsLatterBox from "@/components/NewsLatterBox";
 
-import React from "react";
 
 const Contact = () => {
+  
+
+  
   return (
     <div>
       <Breadcrumb pageName="Contact Us" />
@@ -21,7 +24,7 @@ const Contact = () => {
                 <p className="mb-12 text-base font-medium text-body-color">
                   Our Expert Team Will Get Back To You ASAP Via Email For Further Assistance.
                 </p>
-                <form className="form">
+                <form className="form" name="form">
                   <div className="-mx-4 flex flex-wrap">
                     <div className="w-full px-4 md:w-1/2">
                       <div className="mb-8">
@@ -36,6 +39,7 @@ const Contact = () => {
                           name="Name"
                           placeholder="Enter your name"
                           className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                          
                         />
                       </div>
                     </div>
@@ -52,6 +56,7 @@ const Contact = () => {
                           name="Email"
                           placeholder="Enter your email"
                           className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                          
                         />
                       </div>
                     </div>
@@ -68,6 +73,7 @@ const Contact = () => {
                           rows={5}
                           placeholder="Enter Your Message Regarding To Your Requirement"
                           className="w-full resize-none rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                          
                         ></textarea>
                       </div>
                     </div>
