@@ -8,9 +8,8 @@ const NewsLatterBox = () => {
         Subscribe to receive future updates
       </h3>
       <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base font-medium leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare
-        massa quis lectus.
-      </p>
+
+      Become a newsletter ninja! Get epic updates, mind-blowing offers, and industry insights. Join us, subscribe now, and buckle up for a wild ride of knowledge, laughter, and occasional llama GIFs. Our newsletter is the coolest in town, guaranteed! No dull moments, just pure awesomeness. Sign up and let the good times roll!</p>
       <form>
         <input
           type="text"

@@ -37,7 +37,7 @@ const About = () => {
                   data-wow-delay=".2s"
                 >
                   <Image
-                    src="/images/pages-images/about-us.svg"
+                    src="/images/About/about 2.svg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full lg:mr-0"

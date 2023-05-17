@@ -16,10 +16,10 @@ const Contact = () => {
                 data-wow-delay=".15s"
               >
                 <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                  Need Help? Open a Ticket
+                  Get In Touch With IgniTax.
                 </h2>
                 <p className="mb-12 text-base font-medium text-body-color">
-                  Our support team will get back to you ASAP via email.
+                  Our Expert Team Will Get Back To You ASAP Via Email For Further Assistance.
                 </p>
                 <form className="form">
                   <div className="-mx-4 flex flex-wrap">
@@ -66,7 +66,7 @@ const Contact = () => {
                         <textarea
                           name="Message"
                           rows={5}
-                          placeholder="Enter your Message"
+                          placeholder="Enter Your Message Regarding To Your Requirement"
                           className="w-full resize-none rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                         ></textarea>
                       </div>
@@ -76,7 +76,7 @@ const Contact = () => {
                         type="submit"
                         className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp"
                       >
-                        Submit Ticket
+                        Submit 
                       </button>
                     </div>
                   </div>
