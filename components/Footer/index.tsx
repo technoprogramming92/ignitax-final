@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-8 max-w-[360px] lg:mb-10">
-                <Link href="/" className="mb-8 inline-block">
+                <Link href="/" className="mb-5 inline-block">
                   <Image
                     src="/images/logo/logo-dark.png"
                     alt="logo"
@@ -118,10 +118,10 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-3/12">
+            <div className="w-full px-3 sm:w-1/3 md:w-1/3 lg:w-2/12 xl:w-3/12">
               <div className="mb-8 lg:mb-12">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  All Services 
+                  Useful Links
                 </h2>
                 <ul>
                   <li>
@@ -151,7 +151,6 @@ const Footer = () => {
                       IT & Support{" "}
                     </Link>
                   </li>
-                 
                   <li>
                     <Link
                       href="/graphicdesign"
@@ -179,38 +178,18 @@ const Footer = () => {
                       Creative Content Writing{" "}
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/adminwork"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      Admin Work & Assistance{" "}
-                    </Link>
-                  </li>
-                
-                  <li>
-                    <Link
-                      href="/allservices"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      All Services{" "}
-                    </Link>
-                  </li>
-
-                  
-                  
+                 
                 </ul>
               </div>
             </div>
-
+            
+           
            
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Company & Resources
+                  Company 
                   <br/>
                 </h2>
                 <ul>
@@ -282,13 +261,13 @@ const Footer = () => {
               rel="nofollow noopener"
               className="text-center text-base text-body-color dark:text-white"
             >
-              © All Rights reserve by IgniTax
+              © 2023 All Rights reserved by IgniTax
               <Image
               className="inline-block"
               src="/favicons/favicon-32x32.png"
               alt="favicon"
               width={40}
-              height={50}
+              height={32}
               ></Image>
             </Link>
           </div>
