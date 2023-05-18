@@ -27,7 +27,7 @@ const Header = () => {
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
-  const handleSubmenu = (index: SetStateAction<number>) => {
+  const handleSubmenu = (index:any) => {
     if (openIndex === index) {
       setOpenIndex(-1);
     } else {
@@ -133,7 +133,7 @@ const Header = () => {
                                 openIndex === index ? "block" : "hidden"
                               }`}
                             >
-                              {menuItem.submenu.map((submenuItem) => (
+                              {menuItem.submenu?.map((submenuItem) => (
                                 <Link
                                   href={submenuItem.path}
                                   key={submenuItem.id}

@@ -23,8 +23,8 @@ const menuData: Menu[] = [
   {
     id: 4,
     title: "Services",
-    
     newTab: false,
+    path:"",
     submenu: [
       {
         id: 41,
@@ -109,5 +109,6 @@ const menuData: Menu[] = [
     path: "/contact",
     newTab: false,
   },
+  
 ];
 export default menuData;
