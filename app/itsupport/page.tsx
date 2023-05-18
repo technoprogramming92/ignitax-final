@@ -76,7 +76,7 @@ const ITsupport = () => {
                   data-wow-delay=".2s"
                 >
                   <Image
-                    src="/images/all services/it support.svg"
+                    src="/images/all services/it_support.svg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full lg:mr-0"
