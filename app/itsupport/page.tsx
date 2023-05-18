@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     title: 'IGNITAX - IT and Support Services | Best Solutions for Your Business',
     description: 'Ignitax offers comprehensive IT and support services to businesses. Get solutions for your technical needs, including IT consulting, network management, hardware and software support, and more.',
     url: 'https://www.ignitax.com'
+    
   },
 
   twitter:{
