@@ -27,7 +27,7 @@ const Header = () => {
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
-  const handleSubmenu = (index: SetStateAction<number>) => {
+  const handleSubmenu = (index:any) => {
     if (openIndex === index) {
       setOpenIndex(-1);
     } else {
@@ -133,7 +133,7 @@ const Header = () => {
                                 openIndex === index ? "block" : "hidden"
                               }`}
                             >
-                              {menuItem.submenu.map((submenuItem) => (
+                              {menuItem.submenu?.map((submenuItem) => (
                                 <Link
                                   href={submenuItem.path}
                                   key={submenuItem.id}
@@ -153,7 +153,7 @@ const Header = () => {
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 
                 <Link
-                  href="/signup"
+                  href="/contact"
                   className="ease-in-up hidden rounded-md bg-primary py-3 px-8 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Book a Call
