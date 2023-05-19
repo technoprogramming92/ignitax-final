@@ -4,6 +4,7 @@ import ThreeParaTitle from "@/components/Common/ThreeParaTitle";
 import Image from "next/image";
 import Link from "next/link";
 import Adminfeatures from '@/components/Adminfeatures';
+import Script from "next/script";
 
 import { Metadata } from "next";
 
@@ -57,6 +58,14 @@ const checkIcon = (
   
   return (
     <div>
+      <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-1PDC560M10`}
+        strategy="afterInteractive" />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1PDC560M10');`}
+      </Script>
         <Breadcrumb pageName="Content Writing" />
         <section id="about" className="pt-16 md:pt-10 lg:pt-14">
         <div className="container">
