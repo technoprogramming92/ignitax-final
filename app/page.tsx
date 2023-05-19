@@ -4,6 +4,8 @@ import NewWhyUs from "@/components/NewWhyUs";
 import OurServices from "@/components/OurServices";
 import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
+import Script from "next/script";
+
 
 export const metadata: Metadata = {
   title: "IGNITAX - Your Trusted Virtual Service Provider",
@@ -16,6 +18,7 @@ export const metadata: Metadata = {
     title: "IGNITAX - Your Trusted Virtual Service Provider",
     description:
       "Ignitax is a leading Virtual Service, Virtual Staff & Virtual Assistant provider company we offers wide range of virtual assistance and support services over the globe.",
+    images: "/images/ignitax-logo.png",  
   },
   twitter: {
     title: "IGNITAX - Your Trusted Virtual Service Provider",
@@ -36,6 +39,14 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div>
+      <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-1PDC560M10`}
+        strategy="afterInteractive" />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1PDC560M10');`}
+      </Script>
       <Hero />
       <OurServices />
       <NewWhyUs />
