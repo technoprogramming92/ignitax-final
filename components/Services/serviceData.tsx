@@ -42,7 +42,7 @@ const serviceData: Service[] = [
     paragraph:
 
       "We offer excellent IT and support services for businesses like yours. Whether you need help with a virus, software updates, or expert advice, we've got you covered.",
-    image: "/images/all services/it support.svg",
+    image: "/images/all services/it_support.svg",
     path: "/itsupport",
 
   },

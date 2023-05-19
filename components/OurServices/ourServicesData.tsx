@@ -22,7 +22,7 @@ const ourServicesData: Service[] = [
     title: "IT & Support",
     paragraph:
       "Are you tired of dealing with slow websites, finicky databases, and glitchy hardware? we've got your back with our best virtual staff of IT and support services. From website and database maintenance to IoT and cloud management our virtual assistant team and networking and hardware support team is with you. Why stress when you can contact us today for a free consultation?",
-    image: "/images/all services/it support.svg",
+    image: "/images/all services/it_support.svg",
     path: "/itsupport",
   },
   {

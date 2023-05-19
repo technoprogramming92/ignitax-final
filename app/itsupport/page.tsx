@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     title: 'IGNITAX - IT and Support Services | Best Solutions for Your Business',
     description: 'Ignitax offers comprehensive IT and support services to businesses. Get solutions for your technical needs, including IT consulting, network management, hardware and software support, and more.',
     url: 'https://www.ignitax.com'
+    
   },
 
   twitter:{
@@ -76,7 +77,7 @@ const ITsupport = () => {
                   data-wow-delay=".2s"
                 >
                   <Image
-                    src="/images/all services/it support.svg"
+                    src="/images/all services/it_support.svg"
                     alt="about-image"
                     fill
                     className="mx-auto max-w-full lg:mr-0"
