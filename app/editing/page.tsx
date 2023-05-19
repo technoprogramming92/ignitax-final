@@ -4,7 +4,7 @@ import Link from "next/link";
 import FourParaTitle from "@/components/Common/FourParaTitle";
 
 import { Metadata } from "next";
-
+import Script from "next/script";
 export const metadata: Metadata = {
   title: "IGNITAX - Professional Photos & Videos Editing Services",
   description:
@@ -54,6 +54,17 @@ const Editing = () => {
   );
   return (
     <div>
+      <Script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=G-1PDC560M10`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1PDC560M10');`}
+      </Script>
       <Breadcrumb pageName="Editing" />
 
       <section id="editing" className="pt-11 md:pt-10 lg:pt-12">

@@ -3,7 +3,7 @@ import TwoParaTitle from "@/components/Common/TwoParaTitle";
 import SeoFeatures from "@/components/SeoFeatures";
 import Image from "next/image";
 import Link from "next/link";
-
+import Script from "next/script";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -56,6 +56,18 @@ const SEO = () => {
   );
   return (
     <div>
+      <Script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=G-1PDC560M10`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1PDC560M10');`}
+      </Script>
+
       <Breadcrumb pageName="Digital Media Marketing" />
       <section id="seo" className="pt-12 md:pt-10 lg:pt-14">
         <div className="container">

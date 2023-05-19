@@ -4,35 +4,41 @@ import ITFeatures from "@/components/ITFeatures";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: 'IGNITAX - IT and Support Services | Best Solutions for Your Business',
-  description: 'Ignitax offers comprehensive IT and support services to businesses. Get solutions for your technical needs, including IT consulting, network management, hardware and software support, and more.',
-  keywords: 'IT Consulting Services, Network Management Solutions, Hardware And Software Support, IT Infrastructure Management, Cloud Computing Services, Data Backup And Recovery, Cybersecurity Solutions, System Upgrades And Maintenance, IT Help Desk Support, Technology Planning And Implementation, IT Solutions Provider,Managed It Services, IT Support And Maintenance, IT Troubleshooting, Network Security Services',
-  authors: [{name: 'Ignitax'}],
+  title: "IGNITAX - IT and Support Services | Best Solutions for Your Business",
+  description:
+    "Ignitax offers comprehensive IT and support services to businesses. Get solutions for your technical needs, including IT consulting, network management, hardware and software support, and more.",
+  keywords:
+    "IT Consulting Services, Network Management Solutions, Hardware And Software Support, IT Infrastructure Management, Cloud Computing Services, Data Backup And Recovery, Cybersecurity Solutions, System Upgrades And Maintenance, IT Help Desk Support, Technology Planning And Implementation, IT Solutions Provider,Managed It Services, IT Support And Maintenance, IT Troubleshooting, Network Security Services",
+  authors: [{ name: "Ignitax" }],
   openGraph: {
-    title: 'IGNITAX - IT and Support Services | Best Solutions for Your Business',
-    description: 'Ignitax offers comprehensive IT and support services to businesses. Get solutions for your technical needs, including IT consulting, network management, hardware and software support, and more.',
-    url: 'https://www.ignitax.com'
-    
+    title:
+      "IGNITAX - IT and Support Services | Best Solutions for Your Business",
+    description:
+      "Ignitax offers comprehensive IT and support services to businesses. Get solutions for your technical needs, including IT consulting, network management, hardware and software support, and more.",
+    url: "https://www.ignitax.com",
   },
 
-  twitter:{
-    title: 'IGNITAX - IT and Support Services | Best Solutions for Your Business',
-    description: 'Ignitax offers comprehensive IT and support services to businesses. Get solutions for your technical needs, including IT consulting, network management, hardware and software support, and more.',
+  twitter: {
+    title:
+      "IGNITAX - IT and Support Services | Best Solutions for Your Business",
+    description:
+      "Ignitax offers comprehensive IT and support services to businesses. Get solutions for your technical needs, including IT consulting, network management, hardware and software support, and more.",
   },
 
-  robots: 'index, follow',
-  icons: '/favicons/android-chrome-192x192.png',
-  
+  robots: "index, follow",
+  icons: "/favicons/android-chrome-192x192.png",
+
   formatDetection: {
-    telephone: false
+    telephone: false,
   },
-  themeColor: '1F385D',
+  themeColor: "1F385D",
   appleWebApp: {
     capable: true,
-    statusBarStyle: 'default'
-  }
+    statusBarStyle: "default",
+  },
 };
 
 const checkIcon = (
@@ -44,6 +50,17 @@ const checkIcon = (
 const ITsupport = () => {
   return (
     <div>
+      <Script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=G-1PDC560M10`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1PDC560M10');`}
+      </Script>
       <Breadcrumb pageName="IT Services" />
       <section id="about" className="pt-16 md:pt-10 lg:pt-14">
         <div className="container">
@@ -87,7 +104,7 @@ const ITsupport = () => {
             </div>
             <div className="flex flex-col items-center content-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 mt-10">
               <Link
-                href="/Contact/page"
+                href="/contact"
                 className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
               >
                 Book a Call

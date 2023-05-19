@@ -4,34 +4,39 @@ import Image from "next/image";
 import Link from "next/link";
 import Features from "@/components/SoftwareWebFeatures";
 import { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: 'IGNITAX - Software Development & Web Development Service',
-  description: 'Ignitax Offers Custom Software And Web Development Services For Your Own Business Needs. Our Team Specializes In Creating User-friendly And High-performing Software Applications And Websites.',
-  keywords: 'Web Design And Development, Custom Web Development, Responsive Website Design, Website Development Services, Software Development Solutions, Custom Software Development, Software Development Company, Software Development Services, Customized Software Solutions, Software Development Agency, Web Application Development, E-commerce Website Development, Mobile App Development, Ui/ux Design Services, Front-end Development, Back-end Development, Full-stack Development, Agile Software Development, Web Development Consulting, Website Maintenance And Support',
-  authors: [{name: 'Ignitax'}],
+  title: "IGNITAX - Software Development & Web Development Service",
+  description:
+    "Ignitax Offers Custom Software And Web Development Services For Your Own Business Needs. Our Team Specializes In Creating User-friendly And High-performing Software Applications And Websites.",
+  keywords:
+    "Web Design And Development, Custom Web Development, Responsive Website Design, Website Development Services, Software Development Solutions, Custom Software Development, Software Development Company, Software Development Services, Customized Software Solutions, Software Development Agency, Web Application Development, E-commerce Website Development, Mobile App Development, Ui/ux Design Services, Front-end Development, Back-end Development, Full-stack Development, Agile Software Development, Web Development Consulting, Website Maintenance And Support",
+  authors: [{ name: "Ignitax" }],
   openGraph: {
-    title: 'IGNITAX - Software Development & Web Development Service',
-    description: 'Ignitax Offers Custom Software And Web Development Services For Your Own Business Needs. Our Team Specializes In Creating User-friendly And High-performing Software Applications And Websites.',
-    url: 'https://www.ignitax.com'
+    title: "IGNITAX - Software Development & Web Development Service",
+    description:
+      "Ignitax Offers Custom Software And Web Development Services For Your Own Business Needs. Our Team Specializes In Creating User-friendly And High-performing Software Applications And Websites.",
+    url: "https://www.ignitax.com",
   },
 
-  twitter:{
-    title: 'IGNITAX - Software Development & Web Development Service',
-    description: 'Ignitax Offers Custom Software And Web Development Services For Your Own Business Needs. Our Team Specializes In Creating User-friendly And High-performing Software Applications And Websites.',
+  twitter: {
+    title: "IGNITAX - Software Development & Web Development Service",
+    description:
+      "Ignitax Offers Custom Software And Web Development Services For Your Own Business Needs. Our Team Specializes In Creating User-friendly And High-performing Software Applications And Websites.",
   },
 
-  robots: 'index, follow',
-  icons: '/favicons/android-chrome-192x192.png',
-  
+  robots: "index, follow",
+  icons: "/favicons/android-chrome-192x192.png",
+
   formatDetection: {
-    telephone: false
+    telephone: false,
   },
-  themeColor: '1F385D',
+  themeColor: "1F385D",
   appleWebApp: {
     capable: true,
-    statusBarStyle: 'default'
-  }
+    statusBarStyle: "default",
+  },
 };
 
 const checkIcon = (
@@ -51,6 +56,17 @@ const Webdev = () => {
   );
   return (
     <div>
+      <Script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=G-1PDC560M10`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1PDC560M10');`}
+      </Script>
       <Breadcrumb pageName="Web Development" />
       <section id="about" className="pt-16 md:pt-10 lg:pt-14">
         <div className="container">

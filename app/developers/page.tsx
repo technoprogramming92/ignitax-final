@@ -4,42 +4,57 @@ import DevelopersFeatures from "@/components/DevelopersFeatures";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: 'IGNITAX - Skilled Developers for Your Digital Projects',
-  description: 'Hire our team of experienced developers to bring your digital projects to life. From web development to software solutions, we deliver quality results tailored to your business needs.',
-  keywords: 'Skilled developers, Web development services, Custom software development, Full-stack developers, Front-end development, Back-end development, Mobile app development, E-commerce solutions, CMS development, API integration, UI/UX design, Agile development process, Quality assurance and testing, Responsive web development, Scalable software solutions, Innovative technology development, Software engineering services, Code optimization, Database design and development, Cloud-based solutions',
-  authors: [{name: 'Ignitax'}],
+  title: "IGNITAX - Skilled Developers for Your Digital Projects",
+  description:
+    "Hire our team of experienced developers to bring your digital projects to life. From web development to software solutions, we deliver quality results tailored to your business needs.",
+  keywords:
+    "Skilled developers, Web development services, Custom software development, Full-stack developers, Front-end development, Back-end development, Mobile app development, E-commerce solutions, CMS development, API integration, UI/UX design, Agile development process, Quality assurance and testing, Responsive web development, Scalable software solutions, Innovative technology development, Software engineering services, Code optimization, Database design and development, Cloud-based solutions",
+  authors: [{ name: "Ignitax" }],
   openGraph: {
-    title: 'IGNITAX - Skilled Developers for Your Digital Projects',
-    description: 'Hire our team of experienced developers to bring your digital projects to life. From web development to software solutions, we deliver quality results tailored to your business needs.',
-    url: 'https://www.ignitax.com'
+    title: "IGNITAX - Skilled Developers for Your Digital Projects",
+    description:
+      "Hire our team of experienced developers to bring your digital projects to life. From web development to software solutions, we deliver quality results tailored to your business needs.",
+    url: "https://www.ignitax.com",
   },
 
-  twitter:{
-    title: 'IGNITAX - Skilled Developers for Your Digital Projects',
-    description: 'Hire our team of experienced developers to bring your digital projects to life. From web development to software solutions, we deliver quality results tailored to your business needs.',
+  twitter: {
+    title: "IGNITAX - Skilled Developers for Your Digital Projects",
+    description:
+      "Hire our team of experienced developers to bring your digital projects to life. From web development to software solutions, we deliver quality results tailored to your business needs.",
   },
 
-  robots: 'index, follow',
-  icons: '/favicons/android-chrome-192x192.png',
-  
+  robots: "index, follow",
+  icons: "/favicons/android-chrome-192x192.png",
+
   formatDetection: {
-    telephone: false
+    telephone: false,
   },
-  themeColor: '1F385D',
+  themeColor: "1F385D",
   appleWebApp: {
     capable: true,
-    statusBarStyle: 'default'
-  }
+    statusBarStyle: "default",
+  },
 };
-
 
 const Developers = () => {
   return (
     <div>
-        <Breadcrumb pageName="Developers" />
-        <section id="developers" className="pt-8 md:pt-9 lg:pt-11">
+      <Script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=G-1PDC560M10`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1PDC560M10');`}
+      </Script>
+      <Breadcrumb pageName="Developers" />
+      <section id="developers" className="pt-8 md:pt-9 lg:pt-11">
         <div className="container">
           <div className="border-b border-body-color/[.15] pb-10 dark:border-white/[.15] md:pb-16 lg:pb-18">
             <div className="-mx-4 flex flex-wrap items-center">
@@ -86,7 +101,7 @@ const Developers = () => {
       </section>
       <DevelopersFeatures />
     </div>
-  )
-}
+  );
+};
 
-export default Developers
+export default Developers;
