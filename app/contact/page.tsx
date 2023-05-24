@@ -1,8 +1,31 @@
+"use client";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import NewsLatterBox from "@/components/NewsLatterBox";
 import Script from "next/script";
+import React, { FormEvent, useState } from "react";
+
 
 const Contact = () => {
+  
+
+  function handleSubmit (e: React.FormEvent<HTMLFormElement>)  {
+    
+      const formEle = document.querySelector("form")!;
+      console.log("Submitted");
+      const formData = new FormData(formEle)
+      fetch("https://script.google.com/macros/s/AKfycbyv1TixDIEneuh94p06LzcViGS5uEcVUMGnQ5YRW89NOy0dKQgRz8B8imHAbZwCiZfneA/exec", {
+        method: "POST",
+        body: formData
+      })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
   return (
     <div>
       <Script
@@ -33,18 +56,21 @@ const Contact = () => {
                   Further Assistance.
                 </p>
 
-                <form className="form">
+                <form className="form" onSubmit={(e) => handleSubmit(e)}>
                   <div className="-mx-4 flex flex-wrap">
                     <div className="w-full px-4 md:w-1/2">
                       <div className="mb-8">
                         <label
-                          htmlFor="name"
+                          htmlFor="Name"
                           className="mb-3 block text-sm font-medium text-dark dark:text-white"
                         >
                           Your Name
                         </label>
                         <input
-                          id="name"
+        
+                          
+                          id="Name"
+                          name = "Name"
                           type="text"
                           placeholder="Enter your name"
                           className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
@@ -54,13 +80,16 @@ const Contact = () => {
                     <div className="w-full px-4 md:w-1/2">
                       <div className="mb-8">
                         <label
-                          htmlFor="email"
+                          htmlFor="Email"
                           className="mb-3 block text-sm font-medium text-dark dark:text-white"
                         >
                           Your Email
                         </label>
                         <input
-                          id="email"
+                          
+                          
+                          id="Email"
+                          name="Email"
                           type="email"
                           placeholder="Enter your email"
                           className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
@@ -70,13 +99,35 @@ const Contact = () => {
                     <div className="w-full px-4">
                       <div className="mb-8">
                         <label
-                          htmlFor="message"
+                          htmlFor="Phone"
+                          className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                        >
+                          Phone Number
+                        </label>
+                        <input
+                          
+                          
+                          id="Phone"
+                          name="Phone"
+                          type="tel"
+                          placeholder="Enter your phone"
+                          className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                        />
+                      </div>
+                    </div>
+                    <div className="w-full px-4">
+                      <div className="mb-8">
+                        <label
+                          htmlFor="Message"
                           className="mb-3 block text-sm font-medium text-dark dark:text-white"
                         >
                           Your Message
                         </label>
                         <textarea
-                          id="message"
+                          
+                         
+                          id="Message"
+                          name="Message"
                           rows={5}
                           placeholder="Enter Your Message Regarding To Your Requirement"
                           className="w-full resize-none rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
