@@ -3,11 +3,11 @@ import { Testimonial } from "@/types/testimonial";
 const TestimonialData : Testimonial[] = [
     {
         id: 1,
-        name: "Ekta",
-        designation: "Founder @ER Creation",
+        name: "SADHU SARVAKUSHALDAS",
+        designation: "@BAPS Swaminarayan Vidyamandir",
         content:
-          "Partnering with Ignitax for our e-commerce needs has been a game-changer for our handcraft business. Their expertise and attention to detail have transformed our online store into a visually stunning and user-friendly platform. We highly recommend Ignitax to any handcraft or small business looking to establish a strong online presence. Thank you, Ignitax, for helping us succeed in the digital world!",
-        image: "/images/testimonials/ercreation.png",
+          "Ignitax has created an exceptional student management system for BAPS Swaminarayan Vidhya Mandir. Their software has effectively eliminated our previous complexities, streamlining our operations seamlessly. Whenever we requested corrections or modifications, their team promptly addressed our needs. We must recommend Ignitax for their exceptional software solutions and outstanding customer service.",
+        image: "/images/testimonials/baps_logo.png",
         star: 5,
       },
       {
