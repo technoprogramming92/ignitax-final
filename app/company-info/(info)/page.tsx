@@ -1,11 +1,20 @@
 import ClientInfoFeatures from "@/components/ClientInfoFeatures";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import TwoParaTitle from "@/components/Common/TwoParaTitle";
+import ClientLogos from "@/components/Common/ClientLogos";
 
 const ClientInfo = () => {
   return (
     <div>
       <Breadcrumb pageName='' />
+
+      <ClientInfoFeatures />
+      <section id='clients' className='pt-8 md:pt-9 lg:pt-11'>
+        <div className='container'>
+          <ClientLogos /> {/* Add the logo carousel here */}
+        </div>
+      </section>
+
       <section id='developers' className='pt-8 md:pt-9 lg:pt-11'>
         <div className='container'>
           <div className='border-b border-body-color/[.15] pb-10 dark:border-white/[.15] md:pb-16 lg:pb-18'>
@@ -46,7 +55,6 @@ const ClientInfo = () => {
           </div>
         </div>
       </section>
-      <ClientInfoFeatures />
     </div>
   );
 };

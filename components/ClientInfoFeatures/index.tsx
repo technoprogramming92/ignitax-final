@@ -6,6 +6,15 @@ const DevelopersFeatures = () => {
   return (
     <section id='blog' className='bg-primary/5 py-8 md:py-10 lg:py-11'>
       <div className='container'>
+        <div
+          className={`wow fadeInUp w-full mx-[15px] text-center`}
+          data-wow-delay='.1s'
+          style={{ maxWidth: "auto", marginBottom: "15px" }}
+        >
+          <h2 className='mb-4 text-4xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px] lg:text-3xl'>
+            Our Services
+          </h2>
+        </div>
         <div className='grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3'>
           {featureData.map((feature) => (
             <div key={feature.id} className='w-full'>

@@ -31,3 +31,53 @@
     @apply opacity-100;
   }
 }
+
+.logo-carousel {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background-color: transparent; /* Optional: Add a background color */
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: scroll 35s linear infinite;
+  width: calc(200%);
+}
+
+.logos img {
+  flex: 0 0 auto;
+  max-height: 185px;
+  margin: 0 15px;
+  width: auto;
+  height: auto;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .logos {
+    animation-duration: 30s;
+  }
+
+  .logos img {
+    max-height: 120px;
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logos img {
+    max-height: 95px;
+    margin: 0 8px;
+  }
+}
