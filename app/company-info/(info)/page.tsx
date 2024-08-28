@@ -2,11 +2,12 @@ import ClientInfoFeatures from "@/components/ClientInfoFeatures";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import TwoParaTitle from "@/components/Common/TwoParaTitle";
 import ClientLogos from "@/components/Common/ClientLogos";
+import { FaInstagram, FaWhatsapp, FaPhone, FaLinkedin } from "react-icons/fa";
 
 const ClientInfo = () => {
   return (
     <div>
-      <Breadcrumb pageName='' />
+      <Breadcrumb pageName='Company Info' />
 
       <ClientInfoFeatures />
       <section id='clients' className='pt-8 md:pt-9 lg:pt-11'>
@@ -31,7 +32,31 @@ const ClientInfo = () => {
                   className='wow fadeInUp mb-12 max-w-[570px] lg:mb-0'
                   data-wow-delay='.15s'
                 >
-                  <div className='mx-[-12px] flex flex-wrap'></div>
+                  <div className='flex space-x-6 justify-start items-center mt-6'>
+                    <a
+                      href='https://www.instagram.com/ignitax_?igsh=MTRwZmZibHRhbDlhaw=='
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <FaInstagram className='text-2xl text-pink-500 hover:text-pink-700' />
+                    </a>
+                    <a
+                      href='https://wa.me/9328514323'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <FaWhatsapp className='text-2xl text-green-500 hover:text-green-700' />
+                    </a>
+                    <a href='tel:+919328514323' target='_blank'>
+                      <FaPhone className='text-2xl text-blue-500 hover:text-blue-700' />
+                    </a>
+                    <a
+                      href='https://www.linkedin.com/in/purvi-ignitax/'
+                      target='_blank'
+                    >
+                      <FaLinkedin className='text-2xl text-blue-500 hover:text-blue-700' />
+                    </a>
+                  </div>
                 </div>
               </div>
 

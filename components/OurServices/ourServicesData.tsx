@@ -2,14 +2,6 @@ import { Service } from "@/types/service";
 
 const ourServicesData: Service[] = [
   {
-    id: 1,
-    title: "Taxation & Bookkeeping",
-    paragraph:
-      "Say goodbye to the stress of bookkeeping, tax preparation and tax planning with Ignitax! Our reliable tech and virtual staff of superheroes (EA's & CPA's) will make sure you never miss a payment or deadline again. Schedule a free consultation today and let us make bookkeeping and taxes fun! (Okay, maybe not fun, but definitely less painful!)",
-    image: "/images/all services/tax home.svg",
-    path: "/tax",
-  },
-  {
     id: 2,
     title: "Software Web Development",
     paragraph:
