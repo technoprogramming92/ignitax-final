@@ -25,7 +25,9 @@ const DevelopersFeatures = () => {
       </div>
       <div className='flex flex-col items-center content-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 mt-10'>
         <Link
-          href='/Contact/page'
+          href='/Ignitax-Broucher.pdf'
+          download='Ignitax-Broucher.pdf'
+          target='_blank'
           className='rounded-md bg-[#199B9B] py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80'
         >
           Downlaod Broucher
